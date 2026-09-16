@@ -1,0 +1,27 @@
+{
+  "rules_description": "按星期轮换排班与时段优先级规则配置",
+  "weekday_mapping": {
+    "1": { "target_person_key": "doctor_B", "session": "afternoon" },
+    "2": { "target_person_key": "doctor_B", "session": "afternoon" },
+    "3": { "target_person_key": "doctor_A", "session": "morning" },
+    "4": { "target_person_key": "doctor_B", "session": "afternoon" },
+    "5": { "target_person_key": "doctor_B", "session": "afternoon" },
+    "6": { "target_person_key": "doctor_B", "session": "morning" },
+    "0": { "target_person_key": null, "session": "skip_or_test" }
+  },
+  "slot_priority_preference": [
+    "08:00-08:30",
+    "10:30-11:00",
+    "11:00-11:30",
+    "10:00-10:30",
+    "08:30-09:00",
+    "09:00-09:30",
+    "09:30-10:00"
+  ],
+  "safety_boundary": {
+    "auto_submit_reservation": true,
+    "require_human_payment_confirmation": true,
+    "alarm_on_success": true,
+    "vibrate_on_success": true
+  }
+}

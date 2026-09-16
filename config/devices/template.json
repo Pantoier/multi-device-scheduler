@@ -1,0 +1,39 @@
+{
+  "device_model": "Custom Device Template",
+  "screen_resolution": [1080, 2400],
+  "app_package": "com.hoperun.intelligenceportal",
+  "page_identifiers": {
+    "doctor_list_page": "医生选择",
+    "schedule_page": "选择日期",
+    "confirm_page": "信息确认"
+  },
+  "interaction_timing": {
+    "target_start_time": "05:59:59.970",
+    "poll_interval_ms": 5,
+    "global_timeout_ms": 3600000,
+    "click_wait_ms": 100,
+    "page_stable_wait_ms": 300,
+    "date_refresh_wait_ms": 400,
+    "confirm_render_wait_ms": 50
+  },
+  "person_coordinates": {
+    "doctor_A": [0, 0],
+    "doctor_B": [0, 0],
+    "doctor_C": [0, 0]
+  },
+  "date_swipe": {
+    "max_count": 3,
+    "start_point": [1000, 1000],
+    "end_point": [10, 1000],
+    "duration_ms": 30,
+    "pause_ms": 10
+  },
+  "date_target_points": {
+    "weekday": [0, 0],
+    "weekend": [0, 0]
+  },
+  "time_slot_coordinates": [
+    { "name": "Slot_1", "point": [0, 0] },
+    { "name": "Slot_2", "point": [0, 0] }
+  ]
+}

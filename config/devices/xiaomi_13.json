@@ -1,0 +1,44 @@
+{
+  "device_model": "Xiaomi 13",
+  "screen_resolution": [1080, 2400],
+  "app_package": "com.hoperun.intelligenceportal",
+  "page_identifiers": {
+    "doctor_list_page": "医生选择",
+    "schedule_page": "选择日期",
+    "confirm_page": "信息确认"
+  },
+  "interaction_timing": {
+    "target_start_time": "05:59:59.970",
+    "poll_interval_ms": 5,
+    "global_timeout_ms": 3600000,
+    "click_wait_ms": 100,
+    "page_stable_wait_ms": 300,
+    "date_refresh_wait_ms": 400,
+    "confirm_render_wait_ms": 50
+  },
+  "person_coordinates": {
+    "doctor_A": [999, 666],
+    "doctor_B": [999, 947],
+    "doctor_C": [999, 1508]
+  },
+  "date_swipe": {
+    "max_count": 3,
+    "start_point": [1070, 1000],
+    "end_point": [1, 1002],
+    "duration_ms": 25,
+    "pause_ms": 5
+  },
+  "date_target_points": {
+    "weekday": [443, 950],
+    "weekend": [1050, 950]
+  },
+  "time_slot_coordinates": [
+    { "name": "08:00-08:30", "point": [573, 1171] },
+    { "name": "10:30-11:00", "point": [573, 1925.5] },
+    { "name": "11:00-11:30", "point": [573, 2074.5] },
+    { "name": "10:00-10:30", "point": [573, 1776] },
+    { "name": "08:30-09:00", "point": [573, 1323.5] },
+    { "name": "09:00-09:30", "point": [573, 1499.5] },
+    { "name": "09:30-10:00", "point": [573, 1625] }
+  ]
+}

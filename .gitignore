@@ -1,0 +1,19 @@
+# 本地日志与运行临时数据
+logs/
+*.log
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# 本地账号配置与敏感文件
+*.local.json
+.env
+credentials/
+
+# 编辑器与IDE缓存
+.idea/
+.vscode/
+*.swp
+*.swo

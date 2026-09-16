@@ -1,0 +1,44 @@
+{
+  "device_model": "vivo X Series",
+  "screen_resolution": [1260, 2800],
+  "app_package": "com.hoperun.intelligenceportal",
+  "page_identifiers": {
+    "doctor_list_page": "医生选择",
+    "schedule_page": "选择日期",
+    "confirm_page": "信息确认"
+  },
+  "interaction_timing": {
+    "target_start_time": "05:59:59.970",
+    "poll_interval_ms": 5,
+    "global_timeout_ms": 3600000,
+    "click_wait_ms": 100,
+    "page_stable_wait_ms": 400,
+    "date_refresh_wait_ms": 400,
+    "confirm_render_wait_ms": 100
+  },
+  "person_coordinates": {
+    "doctor_A": [1163, 767],
+    "doctor_B": [1163, 1115],
+    "doctor_C": [1163, 1824]
+  },
+  "date_swipe": {
+    "max_count": 3,
+    "start_point": [1150, 1205],
+    "end_point": [1, 1207],
+    "duration_ms": 35,
+    "pause_ms": 10
+  },
+  "date_target_points": {
+    "weekday": [428, 1190],
+    "weekend": [1071, 1194]
+  },
+  "time_slot_coordinates": [
+    { "name": "09:30-10:00", "point": [1111, 2003] },
+    { "name": "09:00-09:30", "point": [1111, 1812] },
+    { "name": "08:30-09:00", "point": [1111, 1620] },
+    { "name": "10:00-10:30", "point": [1111, 2195] },
+    { "name": "11:00-11:30", "point": [1111, 2580] },
+    { "name": "10:30-11:00", "point": [1111, 2388] },
+    { "name": "08:00-08:30", "point": [1111, 1429] }
+  ]
+}
